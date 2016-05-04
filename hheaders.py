@@ -83,3 +83,6 @@ class HttpHeaders(Enum):
 
     def __str__(self):
         return self.value
+
+
+H = HttpHeaders
