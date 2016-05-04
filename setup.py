@@ -25,11 +25,11 @@ from setuptools import setup
 
 
 setup(
-    name='hheaders',
+    name='hh',
     version='1.0.0',
     description='The enum of HTTP headers.',
     long_description='The enum of HTTP Headers.',
-    url='https://github.com/gtors/hheaders',
+    url='https://github.com/gtors/hh',
     license='MIT',
     platforms=['any'],
     author='Andrey Torsunov',
@@ -41,6 +41,6 @@ setup(
         'Environment :: Web Environment',
         'Programming Language :: Python :: 3',
     ],
-    py_modules=['hheaders'],
+    py_modules=['hh'],
     zip_safe=True
 )
