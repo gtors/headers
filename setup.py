@@ -23,12 +23,15 @@
 import setuptools
 from setuptools import setup
 
+description = ''
+with open('README.md') as f:
+    description = f.read()
 
 setup(
     name='hh',
-    version='1.0.0',
-    description='The enum of HTTP headers.',
-    long_description='The enum of HTTP Headers.',
+    version='2.0.0',
+    description='The enumeration of HTTP headers.',
+    long_description=description,
     url='https://github.com/gtors/hh',
     license='MIT',
     platforms=['any'],
@@ -39,6 +42,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',
         'Environment :: Web Environment',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
     ],
     py_modules=['hh'],
